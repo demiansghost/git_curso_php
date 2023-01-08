@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    height: 15vh;
+    flex-flow: row nowrap;
+    background-color:#353A40;
+}
+.header__logo{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    width:35%;
+}
+.header__navbar{
+    display:flex;
+    width:65%;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+.logo_img{
+    width: 20%;
+    object-fit: cover;
+}
+a{
+  text-decoration: none;
+  color:white;
+  font-size: larger;
+}
+.header__text{
+    color:white;
+}
+.imagen{
+    background-image: linear-gradient(to right,rgb(0 0 0 /.7),rgb(0 0 0 /.6),rgb(0 0 0 /.3)),url(../assets/images/ba1.jpg);
+    width: 100%;
+    background-size:cover;
+    height:100vh;
+    display:flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    background-size:cover;
+    background-position-y: bottom;
+}
+
+.imagen__text{
+    font-size: x-large;
+    color:white;
+    width: 45%;
+    display:flexbox;
+    align-items:flex-end;
+    text-align: end;
+    margin: 10%;
+}
+.tituloOradores{
+    margin-top: 1%;
+    text-align: center;
+   
+}
+.tit2{
+    font-size: 2rem;
+    font-family: serif;
+}
+.oradores{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.cards{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+}
+.card{
+    margin: 0% 3%;
+    border: 2px solid rgb(230, 229, 229);
+    border-radius:1%;
+    
+}
+.imagenCard{
+    width: auto;
+    height:45vh;
+    object-fit: contain;
+
+}
+.etiquetas{
+    width:80%;
+    padding: 5%;
+}
+.nombre{
+    margin: 2%;
+    color:#4a4e51;
+}
+.etiqueta{
+    display: inline;
+    margin: 1%;
+    background-color: #FFC800;
+    border-radius: 10%;
+    padding: 2%;
+}
+.etiquetaR{
+    display: inline;
+    margin: 1%;
+    background-color: #0D9EB6;
+    border-radius: 10%;
+    padding: 2%;
+    color:white;
+}
+.etiquetaN{
+    display: inline;
+    margin: 1%;
+    background-color: #6C757E;
+    border-radius: 10%;
+    padding: 2%;
+    color:white;
+}
+.etiquetaS{
+    display: inline;
+    margin: 1%;
+    background-color: #DC3546;
+    border-radius: 10%;
+    padding: 2%;
+    color:white;
+}
+.card__text{
+    margin: 10% auto auto auto;
+    color:#4a4e51;
+}
+
+.fecha{
+    height: 70vh;
+    width:100%;
+    display:flex;
+    margin-bottom: 2%;
+
+}
+.verde{
+    color:#2C8642;
+}
+.form{
+    height: 40vh;
+}
+.footer{
+    height: 15vh;
+    background-color: #1D506F;
+    background: linear-gradient(to right,#1c3b4e,#1D506F);
+    margin-top: 2%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    color:white;
+    width: 100%;
+    padding: 3% 9%;
+ 
+}
+.fecha__detalles{
+    width: 49.9%;
+    padding: 2%;
+    color:rgb(207, 203, 203);
+    background-color:#353A40;
+    margin-left: auto;
+
+
+}
+.fecha__imagen{
+    width:50%;
+    object-fit: cover;
+}
+.parrafo{
+    margin-top: 3%;
+    line-height: 23px;
+    font-size: medium;
+}
+.titulo_parrafo{
+    font-size: xx-large;
+}
+.btn__parrafo{
+    margin-top:3%;
+    padding:1%;
+    border:1px solid #ffff;
+    color:white;
+    background-color:#353A40;
+    border-radius:5px;
+}
+form{
+    width: 40%;
+}
+.form{
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.formulario{
+   width: 100%;
+    display: inline-flex;
+    justify-content:space-between;
+    margin-bottom: 4%;
+}
+.texto_form{
+ width: 100%;
+ height: auto;
+text-align: center;
+margin: 2% 0%;
+}
+.input{
+    padding: 1%;
+    border-radius:3px;
+    width: 48%;
+    align-content: space-between;
+    border:1px solid #ccced0;
+
+
+}
+.textarea{
+    width: 100%;
+    display: flex;
+    height: 20vh;
+    border: 1px solid  #ccced0;
+    border-radius:3px;
+}
+.submit{
+    background-color:#96C93E;
+    padding: 1%;
+    width: 100%;
+    color:white;
+    margin-top: 2%;
+    height: 6vh;
+    border:none;
+    border-radius:3px;
+    
+
+}
+.submitImg{
+    background-color:#28A644;
+    padding: 1%;
+    width: 30%;
+    color:white;
+    margin-top: 2%;
+    height: 6vh;
+    border:none;
+    border-radius:3px;
+    
+
+}
+.submitImg2{
+    padding: 1%;
+    width: 30%;
+    color:white;
+    margin-top: 2%;
+    height: 6vh;
+    border:1px solid white;
+    border-radius:3px;
+    background:none;
+    
+
+}
+.p{
+    color:#7d7f81;
+}
